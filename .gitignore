@@ -1,0 +1,21 @@
+# 忽略所有 .device 文件
+*.device
+
+# 忽略编译输出
+*.o
+fpga_router
+
+# 忽略运行中间结果
+*.route
+*.cache
+cache/
+cache.dat
+output/
+
+# 可选：忽略临时文件
+*.log
+*.tmp
+*.swp
+*.bak
+.DS_Store
+.vscode/
